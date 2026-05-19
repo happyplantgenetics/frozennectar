@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frozen Nectar | Happy Plant Genetics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #050505; color: white; }
+        .logo-font { font-family: 'Cinzel', serif; }
+        .gold-gradient { background: linear-gradient(135deg, #d4af37 0%, #f9e29d 50%, #b8860b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .hero-zoom { transition: transform 20s ease-out; transform: scale(1.1); }
+        .hero-zoom:hover { transform: scale(1); }
+    </style>
+</head>
+<body class="antialiased scroll-smooth">
+
+    <section class="relative h-screen w-full flex flex-col items-center justify-start text-center px-6 overflow-hidden pt-12 md:pt-16">
+        <div class="absolute inset-0 z-0">
+            <img src="IMG_9966.jpg" class="w-full h-full object-cover opacity-70 hero-zoom">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/80"></div>
+        </div>
+
+        <div class="relative z-10">
+            <img src="logo.png" alt="HappyPlant Genetics" class="w-64 md:w-80 mx-auto mb-2 drop-shadow-2xl">
+            <h2 class="logo-font text-3xl md:text-5xl gold-gradient uppercase tracking-[0.2em] mb-4">Frozen Nectar</h2>
+            <p class="text-white tracking-widest uppercase text-[10px] mb-8 font-black drop-shadow-lg">Açaí Mints x Lychee</p>
+            <a href="#growers-box" class="px-8 py-3 bg-black/50 backdrop-blur-md border border-yellow-600/50 hover:bg-yellow-600/20 transition-all rounded-full text-[10px] tracking-widest font-bold">EXPLORE CULTIVAR</a>
+        </div>
+        
+        <div class="absolute bottom-10 animate-bounce">
+            <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-yellow-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                <img src="IMG_9944.jpg" class="relative rounded-2xl w-full h-[500px] object-cover shadow-2xl">
+            </div>
+            <div>
+                <h3 class="text-4xl font-black italic mb-6 uppercase tracking-tighter">The Frost-Covered <span class="text-yellow-600">Nectar.</span></h3>
+                <p class="text-gray-400 text-lg leading-relaxed mb-8">
+                    An exceptional combination bringing together the heavy menthol-gas structures of Açaí Mints with the sweet, tropical, candy-like finish of Lychee. Frozen Nectar stacks massive, thick trichome columns that yield highly aromatic resin extractions.
+                </p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="glass-card p-4 rounded-xl text-center">
+                        <span class="block text-yellow-600 font-bold text-2xl uppercase italic">Icy</span>
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest">Trichome Veil</span>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl text-center">
+                        <span class="block text-yellow-600 font-bold text-2xl uppercase italic">Exotic</span>
+                        <span class="text-[10px] text-gray-500 uppercase tracking-widest">Sweet Terpenes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="growers-box" class="py-24 bg-[#0a0a0a] border-y border-white/5 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black mb-4 italic uppercase tracking-tighter">Grower's <span class="text-yellow-600 italic">Box</span></h2>
+                <div class="h-1 w-20 bg-yellow-600 mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+                <div class="space-y-4">
+                    <div class="glass-card p-6 rounded-2xl flex justify-between items-center">
+                        <span class="text-gray-500 text-xs uppercase tracking-widest">Lineage</span>
+                        <span class="font-bold text-sm">Açaí Mints x Lychee</span>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl flex justify-between items-center">
+                        <span class="text-gray-500 text-xs uppercase tracking-widest">Type</span>
+                        <span class="font-bold text-sm">65% Indica / 35% Sativa</span>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl flex justify-between items-center">
+                        <span class="text-gray-500 text-xs uppercase tracking-widest">Plant Size</span>
+                        <span class="font-bold text-yellow-600 text-sm uppercase">Tall - Robust</span>
+                    </div>
+                </div>
+
+                <div class="lg:row-span-2">
+                    <img src="IMG_9951.jpg" class="rounded-3xl w-full h-[500px] lg:h-[600px] object-cover border border-white/10 shadow-2xl">
+                </div>
+
+                <div class="space-y-4">
+                    <div class="glass-card p-6 rounded-2xl flex justify-between items-center">
+                        <span class="text-gray-500 text-xs uppercase tracking-widest">Flowering</span>
+                        <span class="font-bold text-sm">58 - 65 Days</span>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl flex justify-between items-center">
+                        <span class="text-gray-500 text-xs uppercase tracking-widest">THC %</span>
+                        <span class="font-bold text-yellow-600 text-lg italic">27% - 31%</span>
+                    </div>
+                    <div class="glass-card p-6 rounded-2xl flex flex-col gap-2">
+                        <span class="text-gray-500 text-xs uppercase tracking-widest">Aroma</span>
+                        <span class="font-bold italic text-sm text-yellow-600">Fresh Lychee Syrup, Cold Menthol, Gassy Fuel</span>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-1 glass-card p-6 rounded-2xl">
+                    <span class="block text-yellow-600 font-black mb-2 tracking-widest uppercase text-[10px]">Cultivator Testimonial</span>
+                    <p class="text-xs text-gray-400 italic leading-relaxed">
+                        "The resin coat on this thing is absurd. Frost covers the fan leaves completely by week 5. Smells exactly like a refreshing, gassy fruit drink."
+                    </p>
+                    <span class="block text-right text-[10px] uppercase text-gray-500 mt-3 font-bold">— Elite Selection Labs</span>
+                </div>
+                
+                <div class="lg:col-span-1 glass-card p-6 rounded-2xl text-center">
+                    <span class="block text-yellow-600 font-black mb-2 tracking-widest uppercase text-[10px]">Expected Yield</span>
+                    <span class="text-3xl font-black italic uppercase">Very High <span class="text-xs font-normal text-gray-500 lowercase">dense rock-hard buds</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 max-w-6xl mx-auto border-t border-white/5">
+        <h4 class="text-sm font-bold tracking-widest text-center text-gray-400 uppercase mb-12">Cultivar's Gallery</h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <img src="IMG_9953.jpg" class="rounded-xl h-48 w-full object-cover grayscale hover:grayscale-0 transition duration-500 border border-white/10">
+            <img src="IMG_9957.jpg" class="rounded-xl h-48 w-full object-cover grayscale hover:grayscale-0 transition duration-500 border border-white/10">
+            <img src="IMG_9944.jpg" class="rounded-xl h-48 w-full object-cover col-span-2 md:col-span-1 grayscale hover:grayscale-0 transition duration-500 border border-white/10">
+        </div>
+    </section>
+
+    <footer class="relative py-28 text-center overflow-hidden border-t border-white/5 bg-black">
+        <div class="absolute inset-0 z-0">
+            <img src="20260423_185018.jpg" class="w-full h-full object-cover opacity-25 scale-110 blur-[2px]">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black"></div>
+        </div>
+
+        <div class="relative z-10 max-w-md mx-auto px-6">
+            <img src="logo.png" class="w-28 mx-auto mb-4 drop-shadow-[0_0_15px_rgba(212,175,55,0.35)]">
+            <p class="logo-font text-lg tracking-[0.3em] text-yellow-600">HAPPYPLANT GENETICS</p>
+            <p class="text-[9px] text-gray-500 mt-3 tracking-widest uppercase font-bold">&copy; 2026 Hand Selected Elite Seeds</p>
+        </div>
+    </footer>
+
+</body>
+</html>
